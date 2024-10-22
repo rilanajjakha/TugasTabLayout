@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/img3"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/Profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:text="Username : "
+        android:textSize="18dp"
+        android:background="@drawable/kotak_profile"/>
+
+    <TextView
+        android:id="@+id/textViewNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:text="NIM : "
+        android:textSize="18dp"
+        android:background="@drawable/kotak_profile"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back "
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="32dp" />
+    </LinearLayout>
